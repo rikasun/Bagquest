@@ -27,7 +27,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 
 gem 'rails_12factor'
-gem "aws-sdk-s3", require: false
+gem "aws-sdk-s3", ">= 1.208.0", require: false
 gem 'jquery-rails'
 gem 'ez_download', git: 'https://github.com/OscarAlvarez8830/EZDownload.git'
 # Use ActiveStorage variant
